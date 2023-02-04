@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="main-container">
+            <h2 class="title">Password Generator</h2>
+            <form onsubmit="generatePassword(event)" id="checkbox-form">
+                <div class="checkbox-container">
+                    <div class="checkbox">
+                        <input type="checkbox" id="lowercase" class="checkbox-input">
+                        <label for="lowercase">Letras Minúsculas</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="uppercase" class="checkbox-input">
+                        <label for="uppercase">Letras Maiúsculas</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="numbers" class="checkbox-input">
+                        <label for="numbers">Números</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="symbols" class="checkbox-input">
+                        <label for="symbols">Símbolos</label>
+                    </div>
+                </div>
+                <input required type="number" id="password-size" class="password-size" placeholder="Número de Caracteres">
+                <input type="submit" value="Gerar Senha" class="generate-button">
+            </form>
+    
+            <div id="password-display">
+                
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./js/index.js"></script>
+</html>

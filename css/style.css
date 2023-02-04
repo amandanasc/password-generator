@@ -1,0 +1,99 @@
+main {
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+main .main-container {
+    background-color: #dff4f3;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+main .main-container .title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #323232;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+form .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 16px;
+}
+
+form .checkbox-container .checkbox:not(:nth-child(1)) {
+    margin: 8px;
+}
+
+form .checkbox-container .checkbox:nth-child(1) {
+    margin: 8px 8px 8px 0px;
+}
+
+form .checkbox-container .checkbox label {
+    color: #323232;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+input.password-size {
+    width: 96%;
+    font-size: 16px;
+    height: 24px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 16px;
+    padding: 8px 2%;
+    max-width: 100%;
+}
+
+input.password-size {
+    border-style: none;
+    outline-style: none;
+}
+
+input.generate-button {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: lightblue;
+    font-family: 'Poppins';
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+input.generate-button:hover {
+    cursor: pointer;
+}
+
+.password-display {
+    text-align: center;
+    background-color: #4682B4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.password {
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+}
