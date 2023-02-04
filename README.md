@@ -1,2 +1,2 @@
 # password-generator
-password generator build using javascript, html5 and css3
+password generator created using Javascript, HTML5 and CSS3 for study porpouses.
